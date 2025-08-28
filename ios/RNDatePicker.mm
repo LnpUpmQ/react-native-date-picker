@@ -20,6 +20,8 @@ using namespace facebook::react;
 
 #import "DatePicker.h"
 
+#include <string>
+
 
 #ifdef RCT_NEW_ARCH_ENABLED
 @interface RNDatePicker () <RCTRNDatePickerViewProtocol>
