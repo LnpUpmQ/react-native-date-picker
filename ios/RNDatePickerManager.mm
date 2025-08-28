@@ -7,6 +7,8 @@
 #import "DatePicker.h"
 #import "RNDatePicker.h"
 
+#include <string>
+
 @implementation RCTConvert(UIDatePicker)
 
 RCT_ENUM_CONVERTER(UIDatePickerMode, (@{
